@@ -9,6 +9,6 @@ class Solution {
                 return i; 
             }
         }
-        return nums.length;
+        return nums.length; // if value position would be out of array index then it executes
     }
 }
