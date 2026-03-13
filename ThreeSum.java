@@ -6,7 +6,7 @@ class Solution {
 
         for(int i = 0; i < nums.length - 2; i++){
 
-            if(i > 0 && nums[i] == nums[i-1])
+            if(i > 0 && nums[i] == nums[i-1]) // if values are repeated it's current value give the same triplet as previous so skip it  
                 continue;
 
             int left = i + 1;
